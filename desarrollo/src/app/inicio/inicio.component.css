@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 5px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+main {
+  padding: 2px;
+  background-image: url(img/inicio.jpg);
+}
+
+.logo {
+  font-size: 34px;
+  font-family: serif;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: serif;
+}
+
+.hero-content p {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: Arial;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 8px 30px;
+  display: inline-block;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 15px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+@media(min-width: 768px) {
+  header {
+    padding: 20px;
+    text-align: left;
+  }
+
+  nav {
+    justify-content: space-around;
+  }
+
+  .hero-content h1 {
+    font-size: 60px;
+  }
+
+  .hero-content p {
+    font-size: 25px;
+  }
+
+  .btn {
+    padding: 10px 40px;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+
+  footer p {
+    font-size: 18px;
+  }
+}

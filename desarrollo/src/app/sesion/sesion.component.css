@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/iniciar.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.login-box {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 600px;
+  height: 530px;
+  text-align: center;
+}
+
+.login-box h1 {
+  margin-bottom: 40px;
+  font-size: 56px;
+  font-family: serif;
+}
+
+.login-box p {
+  margin-bottom: 40px;
+  color: #000000;
+  font-size: 19px;
+  font-family: serif;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-box button {
+  padding: 10px;
+  background-color: #b3a16c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.login-box a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: serif;
+}
+
+.help {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
+
+  .login-container {
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .login-box h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+
+  .login-box p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .login-box input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .login-box button {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .login-box a {
+    font-size: 16px;
+  }
+
+  .help {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .help a {
+    margin-bottom: 5px;
+  }
+}
